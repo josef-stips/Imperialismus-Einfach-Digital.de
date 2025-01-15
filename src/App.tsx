@@ -11,7 +11,7 @@ function App() {
         <Header />
         <Hero />
       </div>
-      <Content />
+      <Content id="content" />
     </div>
   );
 }

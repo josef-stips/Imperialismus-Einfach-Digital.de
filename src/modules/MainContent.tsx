@@ -1,15 +1,33 @@
 import '../App.css';
 import "../../src/index.css";
-import Eagle2 from '../assets/eagle2.png';  
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMoon, faPerson, faEnvelope } from '@fortawesome/free-solid-svg-icons';  
+import Africa from "./Africa";
 
-function MainContent() {
+interface Props {
+  id?: string;
+};
+ 
+const MainContent: React.FC< Props> = ({id}) => {
   return (
-    <div className='content'>
+    <div className='content' id={id}>
       <div className="contentInnerWrapper">
 
+        <div className="contentHeader">
+          <h1 style={{fontWeight: 700}}>Angemeldet als: Deutsches Kaiserreich</h1>
+        </div>
 
+        <div className='contentContentContainer'>
+          <div className="contentInnerContainer content-left">
+
+          </div>
+
+          <div className="contentInnerContainer content-center">
+            <Africa />
+          </div>
+
+          <div className="contentInnerContainer content-right">
+
+          </div>
+        </div>
 
       </div>
     </div>  
