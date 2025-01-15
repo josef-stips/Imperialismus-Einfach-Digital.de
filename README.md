@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Kolonialimperium 1910 - Interaktive Kolonialkarte
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Projektname:** Kolonialimperium 1910 ( Imperialismus-Einfach-Digital.de)  
+**Technologien:** React, TypeScript, HTML, CSS  
+**Jahr:** 1910  
+**Ziel:** Zeige die Kolonialgebiete des deutschen Kaiserreichs sowie der feindlichen Kolonien auf einer interaktiven Karte und ermögliche die Verwaltung von Kolonien, Kriegen und mehr.
 
-## Available Scripts
+**Stand:** Es ist das Jahr 1910 und als Vertreter des Deutschen Kaiserreichs nutzt du die von der deutschen Regierung offiziell ins Leben gerufene Imperial-Website, auf der du deine Kolonien mit modernster Technik und nur wenigen Klicks ganz einfach verwalten kannst. Otto von Bismarck selbst steht Kolonien zwar eher skeptisch gegenüber, dennoch erfordert es eine effiziente Verwaltung des Deutschen Kaiserreichs, um mit der oppositionellen Konkurrenz auf Augenhöhe zu bleiben.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Beschreibung
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Willkommen auf der interaktiven Website **Kolonialimperium 1910**, einem historischen Simulationsspiel, das im Jahr 1910 angesiedelt ist. Auf dieser Plattform kannst du als deutscher Staat Kolonien in Afrika verwalten, strategische Kriege führen und deine Kolonialherrschaft ausbauen. Die Website nutzt modernste Web-Technologien, darunter **React** und **TypeScript**, um dir ein einzigartiges und immersives Erlebnis zu bieten.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Funktionen
 
-### `npm test`
+- **Interaktive Afrikakarte**: Sieh dir die Kolonien des deutschen Kaiserreichs sowie die feindlichen Gebiete an.
+- **Verwalte Kolonien**: Klicke auf eine Kolonie, um Details zu sehen und die Verwaltung zu übernehmen.
+- **Neue Kolonien gründen**: Erweitere dein Reich, indem du neue Kolonien in Afrika gründest.
+- **Krieg führen**: Fordere feindliche Kolonien zu Kriegen heraus und starte militärische Konflikte.
+- **Detaillierte Kolonialinfos**: Erhalte umfassende Informationen über jedes koloniale Gebiet.
+- **Multiplattform-Unterstützung**: Die Website ist auf allen modernen Browsern und Geräten zugänglich.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Voraussetzungen
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Stelle sicher, dass auf deinem System die folgenden Programme installiert sind:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/) (>=14.0.0)
+- [npm](https://www.npmjs.com/) (wird automatisch mit Node.js installiert)
 
-### `npm run eject`
+### Schritte
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Repository klonen:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   ```bash
+   git clone https://github.com/dein-benutzername/kolonialimperium-1910.git
