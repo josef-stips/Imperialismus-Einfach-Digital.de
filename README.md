@@ -33,9 +33,14 @@ Stelle sicher, dass auf deinem System die folgenden Programme installiert sind:
 - [Node.js](https://nodejs.org/) (>=14.0.0)
 - [npm](https://www.npmjs.com/) (wird automatisch mit Node.js installiert)
 
-### Schritte
+### Schritte ( Im Terminal )
 
 1. **Repository klonen:**
 
    ```bash
    git clone https://github.com/dein-benutzername/kolonialimperium-1910.git
+
+2. **Das Programm ausfuehren:**
+
+   ```bash
+   npm start
