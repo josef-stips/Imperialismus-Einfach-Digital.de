@@ -33,6 +33,11 @@ code {
   overflow: hidden hidden;
 }
 
+ul, p, h1,h2.h3,h4,h5,h6, li, a {
+  padding: 0;
+  margin: 0;
+}
+
 .backgroundContainer {
   background-image: url("assets/wooden-background.jpg");
   background-size: cover; /* Das Bild soll den gesamten Container abdecken */
@@ -191,7 +196,24 @@ code {
 .content {
   width: 100%;
   height: 100vh;
+  position: relative;
+  overflow: hidden;
   background-image: url("assets/paperboard-yellow-texture.jpg");
+}
+
+.content.flipped-bg {
+    border-top: 0.3vh solid black;
+}
+
+.contentContent {
+  padding: 0 1vw;
+  font-size: 2vh;
+}
+
+.text-content {
+  height: max-content;
+  padding-bottom: 20vh;
+  padding-top: 2vh;
 }
 
 .contentInnerWrapper {
@@ -265,4 +287,42 @@ code {
   font-size: 12px;
   display: none;
   pointer-events: none;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: 17vh;
+  background-color: var(--text-color);
+  color: var(--bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerInnerWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4vh;
+}
+
+.footer-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.footer-list li {
+  list-style-type: none;
+}
+
+.footer-list li a {
+  color: var(--bg);
 }
