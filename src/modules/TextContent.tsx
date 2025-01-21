@@ -10,12 +10,13 @@ const TextContent: React.FC< Props> = ({id}) => {
     <div className='content flipped-bg text-content' id={id}>
       <div className="contentInnerWrapper">
 
-        <div className="contentHeader">
+        <div className="contentHeader textHeader">
           <h1 style={{fontWeight: 700}}>Die Mission des Deutschen Kaiserreiches in Afrika</h1>
           <br />
         </div>
 
         <div className="contentContent">
+          <br />
             <p>
             "Die Erringung von Kolonien ist kein Werk von Gewalt, sondern eines von Weisheit und Größe. Es ist nicht der Kampf um bloße Besitzungen, sondern die Erfüllung der Pflicht, die der höhere Stand der Kultur den Völkern Europas auferlegt. Deutschland ist durch die Gnade der Einigung und den Sieg von 1871 berufen, seinen Platz unter den führenden Mächten zu behaupten und durch seine Kolonien den deutschen Geist in die Welt hinauszutragen."
             </p>

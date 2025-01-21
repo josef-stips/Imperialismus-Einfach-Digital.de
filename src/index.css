@@ -94,6 +94,19 @@ ul, p, h1,h2.h3,h4,h5,h6, li, a {
   inset: 0;
   margin: auto;
   margin-bottom: 12vh;
+  animation: infinite 3s ease-in-out floating-element, forwards 1.5s linear fadein;
+}
+
+@keyframes floating-element {
+  0% {
+    transform: translateY(0);
+  } 
+  50% {
+    transform: translateY(-2vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .transform {
@@ -141,12 +154,24 @@ ul, p, h1,h2.h3,h4,h5,h6, li, a {
   flex-direction: column;
   margin-left: 2vw;
   gap: 2vh;
+  animation: forwards 1.5s linear fadein;
+}
+
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
 }
 
 .heroContainer.right {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: forwards 2s linear fadein;
 }
 
 .heroTitle {
@@ -213,7 +238,7 @@ ul, p, h1,h2.h3,h4,h5,h6, li, a {
 .text-content {
   height: max-content;
   padding-bottom: 20vh;
-  padding-top: 2vh;
+  padding-top: 0;
 }
 
 .contentInnerWrapper {
@@ -223,7 +248,13 @@ ul, p, h1,h2.h3,h4,h5,h6, li, a {
 }
 
 .contentHeader {
-  padding: 0 1vw;
+  padding: 1vh 1vw;
+  flex-direction: row;
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.432), transparent);
 }
 
 .contentContentContainer {
@@ -236,7 +267,7 @@ ul, p, h1,h2.h3,h4,h5,h6, li, a {
 .contentInnerContainer {
   width: 33%;
   height: 100%;
-  border: 2px solid black;
+  border-top: 0.5vh solid black;
   display: flex;
 }
 
@@ -244,12 +275,13 @@ ul, p, h1,h2.h3,h4,h5,h6, li, a {
   flex-direction: column;
   align-items: start;
   justify-content: left;
+  width: 60%;
 }
 
 .contentInnerContainer.content-right {
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .contentInnerContainer.content-center {
@@ -258,23 +290,49 @@ ul, p, h1,h2.h3,h4,h5,h6, li, a {
   align-items: center;
 }
 
-/* africa map */
-
-.map-container {
-  position: relative;
-  width: 400px;
-  height: 500px;
+.contentLeft {
+  padding: 1vh 0 0 1vw;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.432), transparent);
+  height: 100%;
 }
 
+.contentRight {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ColonieInformationWrapper {
+  
+}
+
+.ColonieInformationList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vh;
+  padding: 0.25vh 0 0 0.25vh;
+  gap: 1vh;
+}
+
+/* africa map */
+
+.africa-map {
+  opacity: 0;
+  transition: opacity 2s linear, transform 2s linear;
+}
+
+.africa-map.visible {
+  opacity: 1;
+}
+
+
 .africa-map path {
-  fill: #ffcc66;
   stroke: #333;
   stroke-width: 0.5;
   transition: all 0.3s ease-in-out;
 }
 
 .africa-map path:hover {
-  fill: #ff9933;
   stroke-width: 1;
 }
 
