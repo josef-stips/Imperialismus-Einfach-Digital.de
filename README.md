@@ -22,6 +22,11 @@ Willkommen auf der interaktiven Website **Kolonialimperium 1910**, einem histori
 - **Detaillierte Kolonialinfos**: Erhalte umfassende Informationen über jedes koloniale Gebiet.
 - **Multiplattform-Unterstützung**: Die Website ist auf allen modernen Browsern und Geräten zugänglich.
 
+### Randnotiz
+
+- Die Afrikakarte ist nicht eins zu eins gleich wie sie damals im Jahre 1910 wirklich wahr. Dies ist lediglich ein kleiner Versuch etwas viel groeßeres und weit aus komplexeres einfach und verstaendlich darzustellen.
+- Auch der "Attack" Button ist nur eine zusaetzliche Funktion da direkte (Eroberungs)kriege in Kolonialgebieten nicht ueblich zu dieser Zeit waren.
+
 ---
 
 ## Installation
