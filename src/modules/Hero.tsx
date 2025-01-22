@@ -3,9 +3,6 @@ import '../../src/index.css';
 import Eagle2 from '../assets/eagle_-removebg-preview.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faMoon,
-  faPerson,
-  faEnvelope,
   faCaretDown,
 } from '@fortawesome/free-solid-svg-icons';
 

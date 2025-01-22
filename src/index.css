@@ -254,7 +254,7 @@ a {
 
 .text-content {
   height: max-content;
-  padding-bottom: 20vh;
+  padding-bottom: 10vh;
   padding-top: 0;
 }
 
@@ -618,4 +618,81 @@ font-size: 3vh;
 .modal-success h3 {
   margin-top: 10vh;
   font-size: 2vh;
+}
+
+/* time line */
+
+/* Timeline.css */
+.timeline-container {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  background: url("./assets/paperboard-yellow-texture.jpg");
+  border-top: 0.5vh solid black;
+  padding: 5vh 2rem 5vh 2rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 5vh;
+}
+
+.timeline-item {
+  background-color: #fff;
+  border: 0.5vh solid #ccc;
+  border-radius: 0.75vh;
+  padding: 1.5rem;
+  width: 30%;
+  position: relative;
+  box-sizing: border-box;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-year {
+  position: absolute;
+  top: -3vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1vh;
+  font-size: 1.2rem;
+  font-size: 2vh;
+}
+
+.timeline-event h2 {
+  font-size: 2vh;
+  color: #333;
+}
+
+.timeline-event p {
+  font-size: 2vh;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .timeline-item {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
 }

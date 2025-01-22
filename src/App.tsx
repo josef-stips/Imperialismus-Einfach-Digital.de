@@ -8,6 +8,7 @@ import Footer from './modules/Footer';
 // @ts-ignore
 import theme from './assets/siegeskranz.mp3';
 import { useEffect } from 'react';
+import Timeline from './modules/Timeline';
 
 function App() {
   let audio = new Audio(theme);
@@ -36,6 +37,7 @@ function App() {
       </div>
       <Content id="content" />
       <TextContent />
+      <Timeline />
       <Footer />
     </div>
   );

@@ -1,7 +1,7 @@
 import "../../App.css";
 import "../../../src/index.css";
 import ColonieInformation from "../../data/30-colonies.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Modal from "../Modal";
 
 interface ModalLinkProps {

@@ -1,12 +1,6 @@
 import '../App.css';
 import '../../src/index.css';
 import ironCross from '../assets/ironcross.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faMoon,
-  faPerson,
-  faEnvelope,
-} from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
   return (
