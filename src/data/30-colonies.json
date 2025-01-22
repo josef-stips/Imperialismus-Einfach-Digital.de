@@ -1,0 +1,298 @@
+{
+  "gebiete": [
+    {
+      "name": "Algerien",
+      "abkuerzung": "DZ",
+      "kolonialgründungsdatum": "1830",
+      "besitzerland": "Frankreich",
+      "territoriumsstatus": "Fest integriert in Frankreich (Kolonie und Départements).",
+      "einheimische_bevölkerung": 5000000,
+      "rassenhierarchie": "Koloniale Apartheid; französische Siedler hatten Vorrechte.",
+      "infrastruktur": "Hoch entwickelt (Eisenbahnen, Städtebau, Landwirtschaft).",
+      "kosten": "Hohe Verwaltungskosten, gute Gewinne durch Agrarprodukte (Weizen, Olivenöl).",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 2,
+        "größere_aufstände": [
+          {
+            "name": "Aufstand der Kabyle",
+            "jahr": "1871",
+            "beschreibung": "Massive Rebellion der Berber gegen die französische Kolonialherrschaft."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Franzosen wurden als Enteigner des Bodens und Unterdrücker der islamischen Kultur wahrgenommen.",
+        "kolonialherren_perspektive": "Französische Siedler sahen die Einheimischen als 'zivilisationsbedürftig' und behandelten sie oft als Bürger zweiter Klasse."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Enteignung von Land und Unterdrückung religiöser Freiheiten führten zu wachsendem Widerstand.",
+        "kosten_blick": "Ständige Revolten und Verwaltungskosten machten die Kolonie langfristig teuer."
+      }
+    },
+    {
+      "name": "Libyen",
+      "abkuerzung": "LY",
+      "kolonialgründungsdatum": "1912",
+      "besitzerland": "Italien",
+      "territoriumsstatus": "Umkämpfte Kolonie.",
+      "einheimische_bevölkerung": 1000000,
+      "rassenhierarchie": "Italienische Eliten kontrollierten Ressourcen und Land.",
+      "infrastruktur": "Gering; militärische Außenposten und wenige Straßen.",
+      "kosten": "Hohe militärische Ausgaben; minimale wirtschaftliche Gewinne.",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 1,
+        "größere_aufstände": [
+          {
+            "name": "Sanussi-Aufstand",
+            "jahr": "1912–1927",
+            "beschreibung": "Islamischer Widerstand gegen die italienische Kolonialisierung, angeführt von der Sanussi-Bruderschaft."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Die italienischen Kolonialherren wurden als Eindringlinge empfunden, die die islamische Lebensweise bedrohten.",
+        "kolonialherren_perspektive": "Die Italiener sahen die Einheimischen als Hindernis für ihre kolonialen Ambitionen."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Widerstand gegen Landraub und kulturelle Entfremdung.",
+        "kosten_blick": "Die Kolonisation Libyens wurde zu einem militärischen Sumpf für Italien."
+      }
+    },
+    {
+      "name": "Angola",
+      "abkuerzung": "AO",
+      "kolonialgründungsdatum": "1575 (portugiesische Präsenz verstärkt ab 1885).",
+      "besitzerland": "Portugal",
+      "territoriumsstatus": "Stabile Kolonie.",
+      "einheimische_bevölkerung": 3500000,
+      "rassenhierarchie": "Weiße Portugiesen hatten dominierende Positionen; afrikanische Bevölkerung war in Plantagenarbeit gefangen.",
+      "infrastruktur": "Begrenzt entwickelt (Handelsstraßen, Häfen, Plantagen).",
+      "kosten": "Gering; stabile Gewinne durch Landwirtschaft und Sklavenarbeit (bis ins 19. Jahrhundert).",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 1,
+        "größere_aufstände": [
+          {
+            "name": "Aufstand der Kongo-Königreiche",
+            "jahr": "1913",
+            "beschreibung": "Lokale Herrscher lehnten sich gegen portugiesische Landnahme auf."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Die Portugiesen wurden als dauerhafte Kolonialherren akzeptiert, aber nicht geliebt. Viele sahen die Herrschaft als unentrinnbar.",
+        "kolonialherren_perspektive": "Die Portugiesen betrachteten die afrikanische Bevölkerung als Untertanen, die Arbeitskraft und Rohstoffe lieferten."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Geringe soziale Mobilität und systematische Ausbeutung führten zu wachsendem Unmut.",
+        "kosten_blick": "Portugals geringe Ressourcen wurden oft überstrapaziert."
+      }
+    },
+    {
+      "name": "Madagaskar",
+      "abkuerzung": "MG",
+      "kolonialgründungsdatum": "1896",
+      "besitzerland": "Frankreich",
+      "territoriumsstatus": "Stabile Kolonie.",
+      "einheimische_bevölkerung": 2500000,
+      "rassenhierarchie": "Französische Verwaltung dominierte; Madagassen hatten eingeschränkte Rechte.",
+      "infrastruktur": "Gut entwickelt (Eisenbahnen, Plantagen, Verwaltungsgebäude).",
+      "kosten": "Moderate Kosten, stabile Gewinne aus Landwirtschaft und Handel.",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 1,
+        "größere_aufstände": [
+          {
+            "name": "Widerstand der Merina-Dynastie",
+            "jahr": "1895–1897",
+            "beschreibung": "Die Merina-Monarchie leistete anfänglich Widerstand gegen die Kolonialisierung durch Frankreich."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Viele Einheimische sahen die Franzosen als Eindringlinge, die ihre traditionelle Monarchie zerstörten.",
+        "kolonialherren_perspektive": "Die Franzosen betrachteten Madagaskar als wichtige strategische Kolonie und Quelle für Arbeitskräfte und Rohstoffe."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Französische Zwangsarbeit und Besteuerung lösten Unruhen aus.",
+        "kosten_blick": "Madagaskar galt als eine der profitableren Kolonien Frankreichs."
+      }
+    },
+    {
+      "name": "Nigeria",
+      "abkuerzung": "NG",
+      "kolonialgründungsdatum": "1914 (Vereinigung der Nord- und Südkolonien).",
+      "besitzerland": "Großbritannien",
+      "territoriumsstatus": "Stabile Kolonie mit lokalen Machtstrukturen.",
+      "einheimische_bevölkerung": 17000000,
+      "rassenhierarchie": "Briten dominierten politisch; lokale Eliten wurden integriert, aber marginalisiert.",
+      "infrastruktur": "Gut entwickelt (Häfen, Eisenbahnen, Plantagen).",
+      "kosten": "Gering; hohe Gewinne durch Palmöl und Landwirtschaft.",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 2,
+        "größere_aufstände": [
+          {
+            "name": "Aba-Frauenaufstand",
+            "jahr": "1929",
+            "beschreibung": "Frauen protestierten gegen britische Steuern und Eingriffe in die lokale Kultur."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Die britischen Kolonialherren wurden oft als pragmatisch, aber distanziert wahrgenommen.",
+        "kolonialherren_perspektive": "Die Briten schätzten Nigerias wirtschaftliches Potenzial und arbeiteten oft über indirekte Herrschaftsformen."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Unzufriedenheit über koloniale Steuern und kulturelle Eingriffe.",
+        "kosten_blick": "Nigeria war eine der profitabelsten britischen Kolonien."
+      }
+    },
+    {
+      "name": "Ägypten",
+      "abkuerzung": "EG",
+      "kolonialgründungsdatum": "1882",
+      "besitzerland": "Großbritannien",
+      "territoriumsstatus": "Unter britischem Protektorat",
+      "einheimische_bevölkerung": 11000000,
+      "rassenhierarchie": "Britische Elite dominierte; Ägypter hatten begrenzten politischen Einfluss.",
+      "infrastruktur": "Fortschrittlich (Suezkanal, Eisenbahnen, Verwaltungseinrichtungen).",
+      "kosten": "Hohe militärische Präsenz erforderlich, profitabel durch Kontrolle des Suezkanals.",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 1,
+        "größere_aufstände": [
+          {
+            "name": "Urabi-Aufstand",
+            "jahr": "1881–1882",
+            "beschreibung": "Ein nationalistischer Aufstand gegen die britische Besetzung, der brutal unterdrückt wurde."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Westliche Kolonialherren wurden oft als Eindringlinge gesehen, die die nationale Identität und religiösen Werte untergruben.",
+        "kolonialherren_perspektive": "Die britische Elite sah die Ägypter als 'rückständig' und unfähig zur Selbstverwaltung. Es herrschte ein paternalistischer Umgangston."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Massive Eingriffe in die nationale Souveränität; Britische Kontrolle wurde stark abgelehnt.",
+        "kosten_blick": "Die britische Kontrolle des Suezkanals brachte riesige Einnahmen."
+      }
+    },
+    {
+      "name": "Sudan (Anglo-Ägyptischer Sudan)",
+      "abkuerzung": "SD",
+      "kolonialgründungsdatum": "1899",
+      "besitzerland": "Großbritannien und Ägypten",
+      "territoriumsstatus": "Britisch-ägyptische Verwaltung, unstabil.",
+      "einheimische_bevölkerung": 8000000,
+      "rassenhierarchie": "Lokale Bevölkerungen hatten kaum Rechte; britische und ägyptische Eliten dominierten.",
+      "infrastruktur": "Begrenzt (Eisenbahnen für militärische Zwecke, minimale Entwicklung).",
+      "kosten": "Hohe militärische Kosten, geringe wirtschaftliche Gewinne.",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 2,
+        "größere_aufstände": [
+          {
+            "name": "Mahdi-Aufstand",
+            "jahr": "1881–1898",
+            "beschreibung": "Islamische Widerstandsbewegung gegen britische und ägyptische Herrschaft."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Die westlichen Kolonialherren wurden als religiöse und kulturelle Eindringlinge wahrgenommen, besonders im Kontext des Islam.",
+        "kolonialherren_perspektive": "Briten sahen die sudanesische Gesellschaft als primitiv und setzten auf Missionierungs- und Zivilisierungsprogramme, oft ohne Verständnis für lokale Traditionen."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Massive Verluste durch Kolonialkriege und Repression.",
+        "kosten_blick": "Hohe Verwaltungskosten für ein weitgehend unwirtschaftliches Territorium."
+      }
+    },
+    {
+      "name": "Deutsch-Ostafrika",
+      "abkuerzung": "TZ",
+      "kolonialgründungsdatum": "1885",
+      "besitzerland": "Deutsches Kaiserreich",
+      "territoriumsstatus": "Stabil mit periodischen Unruhen.",
+      "einheimische_bevölkerung": 8000000,
+      "rassenhierarchie": "Deutsche Verwaltung dominierte; Einheimische hatten wenig Rechte.",
+      "infrastruktur": "Gut (Eisenbahnen, Plantagen, Häfen).",
+      "kosten": "Hohe Anfangsinvestitionen; später moderate Gewinne.",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 2,
+        "größere_aufstände": [
+          {
+            "name": "Maji-Maji-Aufstand",
+            "jahr": "1905–1907",
+            "beschreibung": "Massiver Aufstand gegen deutsche Zwangsarbeit, brutal unterdrückt."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Viele Einheimische empfanden die Deutschen als besonders brutal und entfremdet von lokalen Traditionen.",
+        "kolonialherren_perspektive": "Die deutschen Kolonialherren sahen die afrikanische Bevölkerung überwiegend als Arbeitskraft und wenig als kulturelle Partner."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Brutale Repression und hohe Sterblichkeitsraten während der Aufstände.",
+        "kosten_blick": "Hohe militärische Kosten für die Unterdrückung von Aufständen."
+      }
+    },
+    {
+      "name": "Italienisch-Somaliland",
+      "abkuerzung": "SO",
+      "kolonialgründungsdatum": "1889",
+      "besitzerland": "Italien",
+      "territoriumsstatus": "Umkämpft, geringe Kontrolle.",
+      "einheimische_bevölkerung": 800000,
+      "rassenhierarchie": "Italienische Kontrolle begrenzt; viele Clans kämpften um Unabhängigkeit.",
+      "infrastruktur": "Minimal (einige Häfen, kaum Straßen).",
+      "kosten": "Hohe militärische Kosten; wenig wirtschaftlicher Nutzen.",
+      "aufstände": {
+        "vorhanden": true,
+        "anzahl": 1,
+        "größere_aufstände": [
+          {
+            "name": "Widerstand der Dervish-Bewegung",
+            "jahr": "1899–1920",
+            "beschreibung": "Nationalistische Bewegung gegen italienische und britische Einflüsse."
+          }
+        ]
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Die Einheimischen empfanden die italienischen Kolonialisten als schwach und ineffektiv, was zu anhaltendem Widerstand führte.",
+        "kolonialherren_perspektive": "Italiener betrachteten die Region oft als strategisches Vorhaben, ohne tiefere kulturelle Interessen."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Forderung nach Unabhängigkeit, intensive Konflikte mit der Kolonialmacht.",
+        "kosten_blick": "Sehr hohe militärische und logistische Ausgaben."
+      }
+    },
+    {
+      "name": "Togo",
+      "abkuerzung": "TG",
+      "kolonialgründungsdatum": "1884",
+      "besitzerland": "Deutsches Kaiserreich",
+      "territoriumsstatus": "Relativ stabil.",
+      "einheimische_bevölkerung": 1200000,
+      "rassenhierarchie": "Deutsche Dominanz; Einheimische wurden stark kontrolliert.",
+      "infrastruktur": "Gut (Häfen, Eisenbahnen, Plantagen).",
+      "kosten": "Niedrig; hoher Gewinn durch Agrarprodukte.",
+      "aufstände": {
+        "vorhanden": false,
+        "anzahl": 0,
+        "größere_aufstände": []
+      },
+      "fremdheit": {
+        "einheimische_perspektive": "Die deutsche Verwaltung wurde als streng, aber effizient wahrgenommen.",
+        "kolonialherren_perspektive": "Deutsche betrachteten Togo als 'Vorzeigekolonie', was zu einem weniger repressiven Regime führte."
+      },
+      "oppositionelle_perspektive": {
+        "einheimischer_blick": "Erhebliche Kontrolle durch Kolonialverwaltung; keine größeren Aufstände.",
+        "kosten_blick": "Wurde als 'Vorzeigekolonie' des Deutschen Reiches betrachtet."
+      }
+    }
+  ]
+}
